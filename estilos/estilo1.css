@@ -140,16 +140,16 @@ hr {
     flex-wrap: wrap;
     max-width: 100%;
     width: 90%;
-    margin-top: 0;
     margin: auto;
     text-align: left;
+    
 }
 
 .cont-texto h3 {
 
     color: rgb(252, 218, 0);
     font-size: 1rem;
-    padding: 1rem;
+    
 
 }
 
@@ -157,7 +157,8 @@ hr {
     font-size: 3rem;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    padding: 1rem;
+    margin-bottom: 1.5rem;
+   
 }
 
 
@@ -208,16 +209,19 @@ hr {
         max-width: 100%;
         text-align: center;
         margin-bottom: 4rem;
+       
     }
 
     .cont-texto h1 {
 
         font-size: 2rem;
+       
     }
 
     .cont-texto h3 {
 
-        font-size: 1rem;
+        font-size: 1.3rem;
+     
     }
 
     .contacto {
@@ -233,7 +237,7 @@ hr {
 /*---HAS PASADO ALGUNA DE ESTAS SITUACIONES?---*/
 
 .cont-fondo-h1 {
-    margin: 6rem 0 0 6rem;
+    margin: 6rem 0 1rem 6rem;
     width: fit-content;
     font-size: 3.5rem;
 }
