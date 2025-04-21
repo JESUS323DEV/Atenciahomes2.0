@@ -184,6 +184,8 @@ hr {
         max-width: 100%;
         height: 750px;
         padding: 0;
+       
+        
     }
 
     .logo {
@@ -195,7 +197,10 @@ hr {
     .cont-menu nav ul {
 
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1rem;
+        text-align: right;
+        margin: 0;
+        padding: 0;
     }
 
     .cont-texto {
@@ -329,7 +334,7 @@ hr {
     flex-wrap: wrap;
 
     margin: 6rem 0 0 6rem;
-    
+
 
 }
 
@@ -405,7 +410,109 @@ hr {
     }
 }
 
-/*----Ventas sobre el alquiler tradicional----*/
+/*----COMO FUNCIONA----*/
+
+
+.h1-cont {
+
+    margin: 6rem 0 4rem 6rem;
+    width: fit-content;
+    font-size: 3.5rem;
+}
+/*------------*/
+
+.fondo-como-funciona {
+
+    background-image: url(../imagenes/azul-degradado.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 30vh;
+    
+
+}
+
+.p-cont {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+   
+    
+}
+   
+.p-cont h3 {
+
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 1.5rem;
+    margin: auto;
+ 
+}
+    
+.p-cont p {
+
+    color: rgb(252, 218, 0);
+    font-size: 1rem;
+    padding: 0.5rem;
+
+}
+
+
+.contacto2 {
+
+    width: fit-content;
+    padding: 1rem;
+    margin: 4rem auto auto auto;
+    background-color: rgb(0, 52, 87);
+    border-radius: 10px;
+}
+    
+
+.contacto2 a {
+    color: rgb(252, 218, 0);
+    font-size: 2rem;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+   
+/* Media queries para pantallas pequeñas */
+
+@media (max-width: 768px) {
+
+.h1-cont {
+
+    margin: 0 0 10% 0;
+    padding: 3px;
+    text-align: center;
+    font-size: 2.7rem;
+}
+
+.fondo-como-funciona {
+
+    max-width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.p-cont {
+margin: 0;
+padding: 0;
+} 
+
+    
+}
+
+
+
+    
+
+/*----Ventas sobre el alquiler tradicional-CONTACTO----*/
 
 .fondo-cont {
 
@@ -421,7 +528,7 @@ hr {
 
 .lista-contenedor {
 
-    margin: 0 0 5% 5%;
+    margin: 0 5% 5% 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -431,11 +538,9 @@ hr {
     /* negro con 50% de transparencia */
     padding: 4rem;
     border-radius: 2rem;
-
-
 }
 
-.lista-contenedor h1 {
+.lista-contenedor h2 {
     font-size: 3rem;
     margin: 2rem 0 2rem 0;
 }
@@ -467,7 +572,6 @@ hr {
     border-radius: 2rem;
 }
 
-
 .whatsapp img {
 
     max-width: 100px;
@@ -476,19 +580,12 @@ hr {
 
 }
 
-.whatsapp h1 {
+.whatsapp h2,
+h3 {
 
-    font-size: 2.5rem;
-    margin: 1rem 0 1rem 0;
-
-}
-
-.whatsapp h2 {
-
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
-    margin: auto;
-    margin: 0 0 8% 20%;
+    margin: 0 0 2rem 0;
 }
 
 .whatsapp p {
@@ -514,11 +611,8 @@ hr {
         max-width: 100%;
         height: 150vh;
         background-size: cover;
-
-
         display: flex;
         flex-direction: column;
-
     }
 
     .lista-contenedor {
@@ -532,23 +626,18 @@ hr {
 
     }
 
-    .lista-contenedor h1 {
+    .lista-contenedor h2 {
 
         font-size: 2.5rem;
-        padding: 5px;
+        padding: 10px;
         margin: 1rem 0 2rem 0;
     }
-
-
-
 
     .lista-contenedor li {
 
         font-size: 1.5rem;
         margin: 0 0 0 10%;
-        padding: 5px;
-
-
+        padding: 2px;
     }
 
     .whatsapp {
@@ -564,25 +653,29 @@ hr {
     .whatsapp img {
 
         max-width: 100px;
-        margin: 10% 0 0 0;
-        
-    }
-
-    .whatsapp h1 {
-
-        font-size: 2.5rem;
+        margin: auto;
     }
 
     .whatsapp h2 {
 
-        font-size: 2rem;
-        margin: 0;
+        font-size: 3rem;
+        margin: 0 0 1.5rem 0;
+        padding: 0;
+    }
 
+    .whatsapp h3 {
+
+        font-size: 2rem;
+        padding: 0;
+        margin: 0 0 1.5rem 0;
     }
 
     .whatsapp p {
 
         font-size: 1.3rem;
+        margin: 0 0 1.5rem 0;
+        padding: 0;
+
     }
 
 }
@@ -609,9 +702,9 @@ hr {
 
 .h1-galeria {
 
+    margin: 6rem 0 6rem 6rem;
+    width: fit-content;
     font-size: 3.5rem;
-    text-align: center;
-    margin: 5% 0 5% 0;
 }
 
 /* Media queries para pantallas pequeñas */
@@ -632,8 +725,9 @@ hr {
 
     .h1-galeria {
 
-        margin: 15% 0 15% 0;
-        font-size: 3rem;
+    margin: 0;
+    padding: 5px;
+    font-size: 2.6rem;
     }
 
     .contenedor-galeria :hover {
@@ -692,10 +786,10 @@ hr {
         background-position: top;
         width: 100%;
         flex-direction: column;
-        margin:0;
+        margin: 0;
         padding: 0;
         max-width: 100%;
-        height:auto;
+        height: auto;
 
 
     }
@@ -715,6 +809,6 @@ hr {
         font-size: 0.9rem;
     }
 
-  
+
 
 }
